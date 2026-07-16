@@ -90,6 +90,7 @@ production:
     database: habita_api_production
     username: habita_api
     password: <%= ENV["HABITA_API_DATABASE_PASSWORD"] %>
+    host: localhost
   cache:
     <<: *primary_production
     database: habita_api_production_cache
